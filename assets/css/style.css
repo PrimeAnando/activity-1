@@ -1,0 +1,174 @@
+/*!
+ * Template Name/Project Name: XYZ
+ * Developer Name: Mr ABC
+ * Conatct: abc@gmail.com
+ * Visit: https://abc.info
+ */
+ /* common code start */
+ :root{
+    --brand-color: #3EC2A0;
+    --primery-color: #17A2B8;
+    --paragraph-color: #777;
+    --white-color: #fff;
+    --heading-color: #333;
+ }
+/* common code end  */
+
+/* header-section start  */
+/* nav start  */
+header{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../img/img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar-brand {
+    font-size: 32px; 
+    font-weight: 700;
+    color: var(--white-color);
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    color: var(--brand-color);
+    padding-right: 10px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: var(--brand-color);
+    transform: .5s all;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--brand-color);
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    padding-left: 20px;
+}
+.nav-link{
+    color: var(--white-color);
+}
+.navbar-nav .nav-item{
+    padding-left: 20px;
+}
+/* nav end */
+.banner-content{
+    padding: 150px 0;
+}
+.banner-content h4{
+    font-size: 28px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+.banner-content h2{
+    font-size: 80px;
+    color: var(--brand-color);
+    padding: 5px 0px;
+    font-weight: 700;
+}
+.banner-content p{
+    color: var(--white-color);
+    padding: 20px 0px;
+    font-weight: 600;
+}
+.btn-outline-primary {
+    --bs-btn-color: #white;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--brand-color);
+    --bs-btn-hover-border-color:(--brand-color);
+    --bs-btn-hover-border:none;
+   color: var(--white-color);
+   font-size: 18px;
+   font-weight: 600;
+   padding: 10px 20px;
+}
+/* header-section end */
+
+/* about section start  */
+.about-us{
+    padding: 80px 0px 80px 0px;
+}
+.about-head{
+    padding-bottom: 60px;
+}
+.about-headline{
+    font-size: 32px;
+    color: var(--primery-color);
+    text-align: center;
+    font-weight: 600;
+}
+.divider{
+   width: 100%;
+   background: var(--primery-color);
+   max-width: 7rem;
+   height: 3px;
+}
+.about-content p{
+    color: var(--paragraph-color);
+    line-height: 2;
+}
+.about-content h4{
+    font-size: 24px;
+    padding: 5px 0px;
+    color: var(--heading-color);
+}
+.about-content a{
+    background-color: var(--primery-color);
+    color: var(--white-color);
+    border-radius: 0px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.web-design{
+    font-size: 20px;
+    color: var(--heading-color);
+}
+/* about-sectin end */
+
+/*big footer start  */
+footer{
+    background-color: var(--primery-color);
+    padding: 60px 0px;
+}
+.btn-primary {
+    --bs-btn-color: var(--primery-color);
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color:  var(--primery-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #232529;
+    --bs-btn-hover-border-color: #232529;
+   padding: 15px 45px;
+   margin-left: 10px;
+}
+.botm-2 {
+    --bs-btn-color: var(--white-color);
+    --bs-btn-bg:#232529;
+    --bs-btn-border-color: #232529;
+    --bs-btn-hover-color: #232529;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fff;
+   padding: 15px 45px;
+}
+/*big footer end */
+
+/* footer start  */
+.ftr{
+    background-color: var(--heading-color);
+    color: var(--paragraph-color);
+    padding: 30px 50px;
+    margin-top: 50px;
+}
+.fa-facebook-f{
+    font-family: "Font Awesome 6 Brands";
+    color: rgb(117, 111, 111);
+    padding-right: 10px;
+    margin: 15px 10px;
+    background: rgba(21, 19, 19,.5);
+    padding: 10px 15px;
+}
+.fb-icon i:hover{
+    color: #f9f9f9;
+}
+span.your-name:hover{
+    color: var(--white-color);
+}
+/* footer end */

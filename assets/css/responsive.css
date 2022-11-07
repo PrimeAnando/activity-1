@@ -1,0 +1,50 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* header start */
+    .about-content{
+        margin-bottom: 15px;
+    }
+    .navbar{
+        position:relative;
+        max-height: 80px;
+        z-index: 1;
+    }
+    
+    .banner-content {
+        padding: 100px 0;
+        
+      }
+      .web-design {
+        margin-top: 20px;
+      }
+    .banner-content h4 {
+        font-size: 24px;
+      }
+    .banner-content h2 {
+        font-size: 45px;
+        padding: 0px 0px;
+      }
+    .btn-primary {
+        padding: 10px 25px;
+        margin-left: 5px;
+      }
+      /* footer start  */
+      .ftr {
+        padding: 25px 0px 30px 0px;
+        margin-top: 20px;
+      }
+      .fa-brands, .fab {
+        padding-right: 10px;
+        margin: 7px 4px;
+        padding: 7px 11px;
+      }
+      /* footer end */
+    /* header end */
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    /* header start */
+    /* header end */
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+}
